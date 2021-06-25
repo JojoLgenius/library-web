@@ -1,6 +1,26 @@
 <template>
   <h1>{{ title }}</h1>
   <p>{{ msg }}</p>
+
+  <h2> Users </h2>
+
+<table class="Users">
+<tr>
+<td>Id</td>
+<td>Name</td>
+</tr>
+</table>
+
+  <h2> Books </h2>
+
+<table class="Books">
+<tr>
+<td>Id</td>
+<td>Title</td>
+<td>Author</td>
+</tr>
+</table>
+
 </template>
 
 <script>
