@@ -15,7 +15,7 @@ export default {
     title: String,
   },
   created: function () {
-    fetch("http://localhost:5000/")
+    fetch("http://localhost:5000/sort/test")
       .then((response) => response.text())
       .then((data) => {
         this.msg = data;
